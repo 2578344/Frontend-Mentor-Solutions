@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
+
+.attribution { font-size: 11px; text-align: center; float: none; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main-container {
+    overflow: hidden ;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10%;
+    width: 600px;
+    
+   
+}
+
+p {
+    font-size: 14px;
+    
+}
+
+.right {
+    float: left;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+}
+
+.font-first {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.left {
+    float: left;
+
+}
+
+.inside {
+    margin: 10%;
+
+}
