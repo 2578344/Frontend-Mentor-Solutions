@@ -31,6 +31,7 @@ p {
 .description-container {
     font-family: 'Montserrat', serif;
     font-weight: 500;
+    line-height: 1.8;
 }
 
 .right {
@@ -62,6 +63,7 @@ p {
 #old-price {
     text-decoration:line-through;
     display: inline-block;
+    margin-left: 7%;
 }
 
 #new-price {
@@ -80,13 +82,17 @@ p {
     border-radius: 8px;
     font-family: 'Montserrat', serif;
     font-weight: 700;
+    cursor: pointer;
     
     
 }
+#cart-button:hover {
+    background-color: hsl(212, 21%, 14%)
+}
 
 #cart-button p{
-    font-size: 11.5px;
+    font-size: 12px;
     display: inline-block;
-    
+    margin-left: 2%;
     
 }
