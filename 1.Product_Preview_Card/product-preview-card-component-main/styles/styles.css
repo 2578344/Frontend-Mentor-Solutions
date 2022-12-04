@@ -19,6 +19,23 @@ body {
    
 }
 
+.main-container-mobile {
+    margin:auto;
+    margin-top: 2%;
+    border-radius: 15px;
+    width: 300px;
+    height: 540px;
+    background-color: white;
+}
+
+.main-container-mobile img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main-container-mobile p {
+    font-size: 12.5px;
+}
+
 p {
     font-size: 14px;
     
@@ -50,6 +67,12 @@ p {
     font-weight: 700;
 }
 
+.font-first-mobile {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 .left {
     float: left;
 
@@ -58,6 +81,14 @@ p {
 .inside {
     margin: 10%;
 
+}
+
+.inside-mobile {
+    margin: 6.5%;
+}
+.inside-mobile * {
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
 }
 
 #old-price {
@@ -86,6 +117,8 @@ p {
     
     
 }
+
+
 #cart-button:hover {
     background-color: hsl(212, 21%, 14%)
 }
