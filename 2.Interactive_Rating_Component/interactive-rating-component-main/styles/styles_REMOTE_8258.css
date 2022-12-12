@@ -1,0 +1,33 @@
+.main-rating-container {
+    height: 300px;
+    width: 380px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.main-rating-container * {
+    margin: 5%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.submit-button {
+    width: 80%;
+    padding: 8px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.star-img img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ratings * {
+    padding: 10px;
+    border-radius: 20px;
+}
