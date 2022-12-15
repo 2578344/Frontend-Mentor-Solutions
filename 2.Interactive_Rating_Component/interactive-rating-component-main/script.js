@@ -1,3 +1,8 @@
+var sentRating = "2";
+function rating(number){
+    
+}
+
 
 function change() {
     document.getElementById("sub-btn").onclick = function () {
@@ -13,9 +18,10 @@ function change() {
     parent.appendChild(divIcon);
 
     const divSelected = document.createElement('div');
-    divSelected.innerHTML = '<p>You selected  out of 5</p>';
+    divSelected.innerHTML = '<p id="number"></p>';
     divSelected.classList.add("divSelected");
     parent.appendChild(divSelected);
+    document.getElementById("number").innerHTML = "You selected " + sentRating + " out of 5";
     
 
     const divThanks = document.createElement('div');
