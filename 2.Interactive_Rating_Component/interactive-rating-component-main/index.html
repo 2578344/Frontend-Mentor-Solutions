@@ -14,11 +14,12 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="styles/styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
 
   <!-- Rating state start -->
-  <div class="main-rating-container">
+  <div id="main-container" class="main-rating-container">
     <div class="star-img">
       <img src = "images/icon-star.svg" alt="Icon star"/>
     </div>
@@ -35,7 +36,7 @@
       <span>4</span>
       <span>5</span>
     </div>
-    <button class="submit-button">Submit</button>
+    <button id="sub-btn" class="submit-button" onclick="change()">S U B M I T</button>
   </div>  
   <!-- Rating state end -->
 

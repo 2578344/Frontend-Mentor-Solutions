@@ -15,16 +15,21 @@ body {
 }
 
 .main-rating-container {
-    height: 300px;
+    height: 340px;
     width: 380px;
     margin: auto;
     margin-top: 10%;
     background-color: var(--dark-blue);
     border-radius: 20px;
+    margin-bottom: 2%;
 }
 
 .main-rating-container * {
     margin: 5%;
+}
+
+.star-img {
+    margin-bottom: 0%;
 }
 
 .star-img img{
@@ -39,12 +44,27 @@ p {
     color: var(--light-grey);
 }
 
+.text-container {
+    margin-top: 0%;
+}
+
 .text-container h2 {
     color: white;
+    margin-top: 0%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.text-container p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .ratings {
     margin-left: 10%;
+    margin-bottom: 0%;
 }
 
 .ratings * {
@@ -63,9 +83,11 @@ p {
 
 .submit-button {
     width: 80%;
-    padding: 8px;
+    padding: 11px;
     margin-left: 10%;
     border-radius: 20px;
     background-color: orange;
     color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
 }
