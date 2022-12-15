@@ -9,18 +9,23 @@ function change() {
     }
     const divIcon = document.createElement('div');
     divIcon.innerHTML = `<img src = "images/illustration-thank-you.svg" alt="Icon star"/>`;
+    divIcon.classList.add("divIcon");
     parent.appendChild(divIcon);
 
     const divSelected = document.createElement('div');
     divSelected.innerHTML = '<p>You selected  out of 5</p>';
+    divSelected.classList.add("divSelected");
     parent.appendChild(divSelected);
+    
 
     const divThanks = document.createElement('div');
-    divThanks.innerHTML = '<h2>Thank you!</h2>';
+    divThanks.innerHTML = '<h2 style="margin-left: 30%">Thank you!</h2>';
+    divThanks.classList.add("text-container");
     parent.appendChild(divThanks);
 
     const divStayInTouchText = document.createElement('div');
     divStayInTouchText.innerHTML = "<p>We appreciate you taking the time to give a rating. If you ever need more support, don't hasitate to get in touch!</p>";
-    parent.appendChild(divStayInTouchText);
+    divStayInTouchText.classList.add("stay-in-touch");
+    divThanks.appendChild(divStayInTouchText);
 
 }

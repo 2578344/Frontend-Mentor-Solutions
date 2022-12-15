@@ -91,3 +91,27 @@ p {
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
 }
+
+/* thank you state  */
+
+ .divIcon {
+    margin-left: 25%;
+}
+
+.divSelected p {
+    justify-content: center;
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: orange;
+    background-color: hsl(214, 21%, 21%);
+    padding: 6px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.stay-in-touch {
+    text-align: center;
+    margin: -1%;
+}
