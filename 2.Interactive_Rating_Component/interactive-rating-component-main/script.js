@@ -1,6 +1,16 @@
-var sentRating = "2";
-function rating(number){
-    
+var sentRating;
+var previousBtn;
+function rating(number,button){
+    if (previousBtn == undefined){
+        previousBtn = button;
+        document.getElementById(button).classList.add("selectedRating");
+    }
+    else {
+        document.getElementById(previousBtn).classList.remove("selectedRating");
+        previousBtn = button;
+        document.getElementById(button).classList.add("selectedRating");
+    }
+    sentRating = number;
 }
 
 

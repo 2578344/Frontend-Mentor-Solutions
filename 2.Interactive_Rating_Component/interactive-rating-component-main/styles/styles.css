@@ -80,6 +80,11 @@ p {
 
 }
 
+.ratings *:hover {
+    background-color: var(--medium-grey);
+    cursor: pointer;
+}
+
 
 .submit-button {
     width: 80%;
@@ -90,6 +95,11 @@ p {
     color: white;
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: orange;
 }
 
 /* thank you state  */
@@ -114,4 +124,8 @@ p {
 .stay-in-touch {
     text-align: center;
     margin: -1%;
+}
+
+.selectedRating {
+    background-color: orange;
 }
