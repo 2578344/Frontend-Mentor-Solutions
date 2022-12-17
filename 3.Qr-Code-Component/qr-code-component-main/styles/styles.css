@@ -1,0 +1,85 @@
+/*- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main-container {
+    margin: auto;
+    margin-top: 5%;
+    width: 290px;
+    height: 440px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 4%;
+}
+
+.main-container *{
+    margin: 6%;
+}
+
+
+.qr-img img{
+    width: 100%;
+    height: 255px;
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.text-container {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
