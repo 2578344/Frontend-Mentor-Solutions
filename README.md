@@ -9,4 +9,7 @@ All of my Frontend Mentor challenge solutions are available in this repository.
   <li>
     <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/2.Interactive_Rating_Component/interactive-rating-component-main" target="_self"> Interactive Rating Component </a>
   </li>  
+  <li>
+    <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/3.Qr-Code-Component/qr-code-component-main" target="_self"> Qr Code Component </a>
+  </li>
 </ol>
