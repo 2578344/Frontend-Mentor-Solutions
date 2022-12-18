@@ -1,0 +1,87 @@
+
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(125, 121, 121);;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    color: rgb(125, 121, 121);
+  }
+
+  .main-container, .bottom-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .main-container img {
+    width: 111%;    
+  }
+
+  .main-container {
+    overflow: hidden;
+  }
+
+  .left {
+    float: left;
+    width: 60%;
+  }
+
+  .right {
+    float: right;
+    background-color: rgb(165, 155, 155);
+    width: 31%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
