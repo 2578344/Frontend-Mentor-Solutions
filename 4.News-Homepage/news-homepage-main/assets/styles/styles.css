@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/*
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+
+*/
+
 
 
 .topnav {
@@ -26,6 +38,10 @@
     color: rgb(125, 121, 121);
   }
 
+  p {
+    font-size: 15px;
+  }
+
   .main-container, .bottom-container {
     margin-left: 5%;
     margin-right: 5%;
@@ -44,23 +60,78 @@
     width: 60%;
   }
 
+  .read-more-btn {
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+  }
+
   .right {
     float: right;
-    background-color: rgb(165, 155, 155);
+    background-color: hsl(240, 100%, 5%);
     width: 31%;
   }
 
+  .right h2 {
+    color: hsl(35, 77%, 62%);
+  }
+
+  .right h4 {
+    color: white;
+  }
+
+  .right p, hr{
+    color: hsl(233, 8%, 79%);
+  }
+
+
+  .left-box {
+    width: 55.5%;
+    float: left;
+    display: inline-block;
+    
+  }
+
+  .right-box {
+    width: 43%;
+    display: inline-block;
+  }
+
+
+.bottom-container {
+  overflow: hidden;
+}
+
+.bottom-container * {
+  float: left;
+  height: 10%;
+}
+
+
+.bottom-box {
+  width: 33%;
+  display: flex;
+}
 
 
 
+.bottom-box img {
+  width: 27%;
+  overflow: hidden;
+}
 
+.text-box h3 {
+  position: absolute;
+}
 
+.text-box p {
+  position: relative;
+}
 
+.text-box * {
+  font-size: 10%;
 
-
-
-
-
+}
 
 
 
