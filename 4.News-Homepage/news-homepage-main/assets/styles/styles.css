@@ -35,7 +35,8 @@ Very dark blue: hsl(240, 100%, 5%)
   }
   
   .topnav a:hover {
-    color: rgb(125, 121, 121);
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
   }
 
   p {
@@ -88,6 +89,12 @@ Very dark blue: hsl(240, 100%, 5%)
 
   }
 
+  .read-more-btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    cursor: pointer;
+  }
+
   .right {
     float: right;
     background-color: hsl(240, 100%, 5%);
@@ -105,6 +112,11 @@ Very dark blue: hsl(240, 100%, 5%)
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 37px;
+  }
+
+  .right h4:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
   }
 
   .right h4 {
@@ -189,6 +201,10 @@ Very dark blue: hsl(240, 100%, 5%)
   font-weight: 700;
 }
 
+.text-box h4:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
 
 .text-box p {
   font-family: 'Inter', sans-serif;
