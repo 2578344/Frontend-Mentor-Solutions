@@ -15,4 +15,7 @@ All of my Frontend Mentor challenge solutions are available in this repository.
   <li>
     <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/4.News-Homepage/news-homepage-main" target="_self"> News Homepage </a>
   </li>
+  <li>
+    <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/5.Stats-Preview-Card-Component/stats-preview-card-component-main" target="_self"> Stats Preview Card Component </a>
+  </li>
 </ol>
