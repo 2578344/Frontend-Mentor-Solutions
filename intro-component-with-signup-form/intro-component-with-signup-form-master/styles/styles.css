@@ -1,0 +1,96 @@
+/*
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 0;
+}
+.background {
+    width: 1440px;
+    height: 900px;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.4), 
+      rgba(255, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url('../images/bg-intro-desktop.png');
+    position: fixed;
+}
+
+p {
+    font-size: 16px;
+}
+
+.left-text-container {
+    margin-left: 1.5%;
+    margin-top: 25%;
+}
+
+.left-text-container h1,p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-text-container h1 {
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 1.2;
+    margin-bottom: 5%;
+}
+
+.left-text-container p {
+    font-weight: 500;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 64%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
