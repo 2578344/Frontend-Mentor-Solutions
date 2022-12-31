@@ -1,17 +1,4 @@
-/*
-- Red: hsl(0, 100%, 74%) 
-- Green: hsl(154, 59%, 51%)
 
-### Accent
-
-- Blue: hsl(248, 32%, 49%)
-
-### Neutral
-
-- Dark Blue: hsl(249, 10%, 26%) 
-- Grayish Blue: hsl(246, 25%, 77%)
-font-family: 'Poppins', sans-serif;
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
@@ -68,28 +55,63 @@ p {
     margin-bottom: 5%;
 }
 
+.top-container {
+    text-align: center;
+    background-color: hsl(248, 32%, 49%);
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px #0000002b;
+    margin-bottom: 3%;
+}
 
 
+.form-container {
+    height: 84%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px #0000002b;
+}
+
+.form-container * {
+    margin-left: 8%;
+    margin-right: 7%;
+    padding: 18px;
+    width: 79%;
+    border-radius: 7px;
+    margin-bottom: 3%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.btn-submit {
+    width: 86%;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+#first-name {
+    margin-top: 9%;
+}
 
 
+#text-gray-part {
+    color: hsl(246, 25%, 77%);
+}
 
+#terms-text {
+    text-align: center;
+    font-size: 79%;
+    margin-top: 0%;
+    color: hsl(246, 25%, 77%);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#terms-span {
+    color: hsl(0, 100%, 74%);
+    display: contents;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
