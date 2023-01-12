@@ -18,4 +18,7 @@ All of my Frontend Mentor challenge solutions are available in this repository.
   <li>
     <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/5.Stats-Preview-Card-Component/stats-preview-card-component-main" target="_self"> Stats Preview Card Component </a>
   </li>
+  <li>
+    <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/6.Intro-Component-With-Signup-Form/intro-component-with-signup-form-master" target="_self"> Intro Component With Signup Form </a>
+  </li>
 </ol>
