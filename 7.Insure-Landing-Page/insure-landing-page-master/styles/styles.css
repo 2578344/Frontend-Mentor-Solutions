@@ -1,0 +1,64 @@
+
+.nav-bar {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.nav-bar button {
+    float: right;
+}
+
+.top-container {
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 698px;
+}
+
+.left-top {
+    width: 50%;
+    float: left;
+}
+
+.right-top{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
