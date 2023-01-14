@@ -21,4 +21,7 @@ All of my Frontend Mentor challenge solutions are available in this repository.
   <li>
     <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/6.Intro-Component-With-Signup-Form/intro-component-with-signup-form-master" target="_self"> Intro Component With Signup Form </a>
   </li>
+  <li>
+    <a href="https://github.com/2578344/Frontend-Mentor-Solutions/tree/main/7.Insure-Landing-Page/insure-landing-page-master" target="_self"> Insure Landing Page </a>
+  </li>
 </ol>
