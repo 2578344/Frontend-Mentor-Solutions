@@ -6,6 +6,8 @@
 
 .nav-bar button {
     float: right;
+    background-color: inherit;
+    border: none;
 }
 
 .top-container {
@@ -25,10 +27,31 @@
 }
 
 
+.bottom-container {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: silver;
+    padding: 2%;
+}
 
+.bottom-container h1 {
+    margin-right: 56%;
+    float: left;
+    font-size: 212%;
+    width: 26%;
+}
 
+.bottom-container button {
+    padding: 10px;
+    float: right;
+    height: 40px;
+    margin-top: 2%;
+}
 
-
+.bottom-container * {
+    margin:2%;
+}
 
 
 
